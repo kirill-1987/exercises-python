@@ -1,3 +1,11 @@
+тест 44 дает верный ответ при параметре: 
+print(len(text[5:15].strip()))
+text = 'When \t\n you play a \t\n game of thrones you win or you die.'
+
+верный ответ:
+# BEGIN (write your solution here)
+print(len(text[4:15].strip()))
+# END
 ---
 
 name: Цепочка вызовов
